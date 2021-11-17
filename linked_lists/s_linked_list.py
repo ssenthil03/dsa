@@ -1,3 +1,5 @@
+# Implementation of Singular Linked List.
+
 class Node:
     def __init__(self, data):
         self.data = data

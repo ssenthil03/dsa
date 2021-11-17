@@ -42,7 +42,7 @@ class CLL:
             self.last = node
         else:
             temp = self.last.next
-            
+
             
 
     def printList(self):
@@ -59,5 +59,5 @@ cll.insert_begin(10)
 cll.insert_begin(12)
 cll.insert_begin(12)
 cll.insert_end(13)
-cll.insert_at_pos(, )
+
 cll.printList()
