@@ -5,17 +5,18 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-    
+
+
 class LinkedList:
     def __init__(self):
         self.head = None
-    
+
     def push(self, data):
         node = Node(data)
 
         node.next = self.head
         self.head = node
-    
+
     def palindrome(self, head):
         stack = []
         ispalin = True
@@ -27,13 +28,13 @@ class LinkedList:
             value = stack.pop()
             if (head.data == value):
                 ispalin = True
-            else: 
+            else:
                 ispalin = False
                 break
-            
+
             head = head.next
         return ispalin
-        
+
 
 ll = LinkedList()
 ll.push(1)

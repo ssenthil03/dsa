@@ -68,7 +68,6 @@ class LinkedList:
             temp = temp.next
 
 
-
 ll = LinkedList()
 ll.push_front(1)
 ll.push_front(2)
@@ -81,4 +80,3 @@ ll.printList()
 print(f"Whether the element is in the Linked List :{ll.search_node(5)}")
 
 print(ll.print_mid())
-
