@@ -10,7 +10,7 @@ def inOrder(root):
         preOrder(root.left)
         print(root.key)
         preOrder(root.right)
-
+ 
 def preOrder(root):
     if root:
         print(root.key)
