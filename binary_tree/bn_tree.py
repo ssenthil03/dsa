@@ -7,9 +7,9 @@ class Tree:
 
 def inOrder(root):
     if root:
-        preOrder(root.left)
+        inOrder(root.left)
         print(root.key)
-        preOrder(root.right)
+        inOrder(root.right)
  
 def preOrder(root):
     if root:
