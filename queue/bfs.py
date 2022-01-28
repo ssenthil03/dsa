@@ -31,7 +31,6 @@ g.addEdges(2, 0)
 g.addEdges(2, 3)
 g.addEdges(3, 3)
  
-print ("Following is Breadth First Traversal"
-                  " (starting from vertex 2)")
+print ("Following is Breadth First Traversal (starting from vertex 2)")
 g.BFT(2)
 
