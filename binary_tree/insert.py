@@ -1,5 +1,4 @@
-# Insert the given key in the first available position when traversing by
-# level order method
+''' Insert the given key in the first available position when traversing by level order method '''
 
 class Graph:
     def __init__(self, data) -> None:
